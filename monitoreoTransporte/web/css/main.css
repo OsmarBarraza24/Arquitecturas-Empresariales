@@ -4,11 +4,13 @@ body{
 }
 
 .container{
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     height: 100%;
+    border: solid 1px black;
 }
 
 .form-control{
