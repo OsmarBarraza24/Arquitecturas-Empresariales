@@ -1,0 +1,7 @@
+SELECT `lineastransportistas`.`id`,
+    `lineastransportistas`.`nombreCompleto`,
+    `lineastransportistas`.`descripcion`,
+    `lineastransportistas`.`contacto`,
+    `lineastransportistas`.`domicilio`,
+    `lineastransportistas`.`telefonoOficina`
+FROM `monitoreo`.`lineastransportistas`;
