@@ -1,0 +1,5 @@
+SELECT `puntocaptura`.`id`,
+    `puntocaptura`.`nombreCompleto`,
+    `puntocaptura`.`descripcion`,
+    `puntocaptura`.`direcion`
+FROM `monitoreo`.`puntocaptura`;

@@ -1,0 +1,10 @@
+SELECT `conductores`.`id`,
+    `conductores`.`nombreCompleto`,
+    `conductores`.`descripcion`,
+    `conductores`.`ife`,
+    `conductores`.`curp`,
+    `conductores`.`rfc`,
+    `conductores`.`licencia`,
+    `conductores`.`vigenciaLicencia`,
+    `conductores`.`telefono`
+FROM `monitoreo`.`conductores`;
