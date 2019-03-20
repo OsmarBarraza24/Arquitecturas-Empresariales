@@ -15,6 +15,7 @@ public class PuntoCaptura {
     private String nombreCompleto = new String();
     private String descripcion = new String();
     private String direccion = new String();
+    private String contacto = new String();
 
     public int getId() {
         return id;
@@ -46,6 +47,14 @@ public class PuntoCaptura {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public String getContacto() {
+        return contacto;
+    }
+
+    public void setContacto(String contacto) {
+        this.contacto = contacto;
     }
 
 }

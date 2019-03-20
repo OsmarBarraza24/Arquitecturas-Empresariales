@@ -1,0 +1,4 @@
+SELECT `perfilusuario`.`id`,
+    `perfilusuario`.`nombreCompleto`,
+    `perfilusuario`.`descripcion`
+FROM `monitoreo`.`perfilusuario`;

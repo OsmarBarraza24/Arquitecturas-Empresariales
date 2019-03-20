@@ -1,0 +1,9 @@
+SELECT `equipogps`.`id`,
+    `equipogps`.`nombreCompleto`,
+    `equipogps`.`marca`,
+    `equipogps`.`numeroSerie`,
+    `equipogps`.`imeiGPS`,
+    `equipogps`.`chipTelefono`,
+    `equipogps`.`imeiChip`,
+    `equipogps`.`digitoSeguridad`
+FROM `monitoreo`.`equipogps`;
