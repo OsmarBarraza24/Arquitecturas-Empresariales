@@ -10,9 +10,7 @@ package entity;
  * @author eduardolara
  */
 public class Conductores {
-
-    //Atributos 
-    
+  
     private int id = 0;
     private String nombreCompleto = new String();
     private String descripcion = new String();
