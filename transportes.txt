@@ -1,0 +1,7 @@
+SELECT `transportes`.`id`,
+    `transportes`.`placas`,
+    `transportes`.`marca`,
+    `transportes`.`modelo`,
+    `transportes`.`descripcion`,
+    `transportes`.`idLinastransportistas`
+FROM `monitoreo`.`transportes`;
