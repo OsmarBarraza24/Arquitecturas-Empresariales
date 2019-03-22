@@ -11,6 +11,7 @@ package entity;
  */
 public class Conductores {
   
+    //Tratando de subir
     private int id = 0;
     private String nombreCompleto = new String();
     private String descripcion = new String();
