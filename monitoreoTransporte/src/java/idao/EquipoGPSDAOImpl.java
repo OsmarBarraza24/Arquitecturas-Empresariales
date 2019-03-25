@@ -84,7 +84,6 @@ public class EquipoGPSDAOImpl implements EquipoGPSDAO{
         st.setString(6, equipoGPSNuevo.getChipTelefono());
         st.setString(7, equipoGPSNuevo.getImeiChip());
         st.setString(8, equipoGPSNuevo.getDigitoSeguridad());
-        st.setInt(9, equipoGPSNuevo.getId());
 
         boolean resultado = st.execute();
 

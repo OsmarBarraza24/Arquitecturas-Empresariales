@@ -75,7 +75,6 @@ public class TransportesDAOImpl implements TransportesDAO{
         st.setString(4, transportesNuevo.getModelo());
         st.setString(5, transportesNuevo.getDescripcion());
         st.setObject(6, transportesNuevo.getLineasTransportistas());
-        st.setInt(7, transportesNuevo.getId());
         
         boolean resultado = st.execute();
         

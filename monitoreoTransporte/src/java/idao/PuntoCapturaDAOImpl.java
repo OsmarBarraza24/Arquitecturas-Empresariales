@@ -66,8 +66,9 @@ public class PuntoCapturaDAOImpl implements PuntoCapturaDAO{
 
         st.setInt(1, puntoCapturaNuevo.getId());
         st.setString(2, puntoCapturaNuevo.getNombreCompleto());
-        st.setString(3, puntoCapturaNuevo.getDireccion());
-        st.setString(4, puntoCapturaNuevo.getContacto());
+        st.setString(3, puntoCapturaNuevo.getDescripcion());
+        st.setString(4, puntoCapturaNuevo.getDireccion());
+        st.setString(5, puntoCapturaNuevo.getContacto());
 
         boolean resultado = st.execute();
 

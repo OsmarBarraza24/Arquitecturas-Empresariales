@@ -75,7 +75,6 @@ public class UsuariosDAOImpl implements UsuariosDAO{
         st.setString(4, usuariosNuevo.getContrasena());
         st.setObject(5, usuariosNuevo.getPerfilUsuario());
         st.setObject(6, usuariosNuevo.getPuntoCaptura());
-        st.setInt(7, usuariosNuevo.getId());
 
         boolean resultado = st.execute();
 

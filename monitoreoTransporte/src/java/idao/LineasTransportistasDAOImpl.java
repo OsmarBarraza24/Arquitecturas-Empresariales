@@ -75,7 +75,6 @@ public class LineasTransportistasDAOImpl implements LineasTransportistasDAO{
         st.setString(3, lineasTransportistasNuevo.getContacto());
         st.setString(4, lineasTransportistasNuevo.getDomicilio());
         st.setString(5, lineasTransportistasNuevo.getTelefonoOficina());
-        st.setInt(8, lineasTransportistasNuevo.getId());
 
         boolean resultado = st.execute();
 

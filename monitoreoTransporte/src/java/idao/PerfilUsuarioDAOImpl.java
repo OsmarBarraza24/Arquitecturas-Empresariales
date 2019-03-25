@@ -85,7 +85,6 @@ public class PerfilUsuarioDAOImpl implements PerfilUsuarioDAO {
         st.setBoolean(6, perfilUsuarioNuevo.isEliminar());
         st.setBoolean(7, perfilUsuarioNuevo.isConfiguracion());
         st.setBoolean(8, perfilUsuarioNuevo.isUsuarios());
-        st.setInt(9, perfilUsuarioNuevo.getId());
 
         boolean resultado = st.execute();
 

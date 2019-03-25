@@ -81,7 +81,6 @@ public class ConductoresDAOImpl implements ConductoresDAO {
         st.setString(5, conductoresNuevo.getRfc());
         st.setString(6, conductoresNuevo.getDescripcion());
         st.setString(7, conductoresNuevo.getIfe());
-        st.setInt(8, conductoresNuevo.getId());
 
         boolean resultado = st.execute();
 
