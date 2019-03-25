@@ -5,6 +5,7 @@
  */
 package Controller;
 
+import idao.ConductoresDAOImpl;
 import database.baseDatos;
 import entity.Usuarios;
 import java.io.IOException;
@@ -35,7 +36,7 @@ public class conductorServlet extends HttpServlet {
             throws ServletException, IOException {
         
             baseDatos _baseDatos = new baseDatos();
-        conductorDAOImpl _usuarioDao = new conductorDAOImpl(_baseDatos.getConnection());
+        ConductoresDAOImpl _usuarioDao = new ConductoresDAOImpl(_baseDatos.getConnection());
         
         int _opcion = (request.getParameter("op")!= null && !request.getParameter("op").isEmpty()? Integer.valueOf(request.getParameter("op")):0);
         int _id = (request.getParameter("id") != null && !request.getParameter("id").isEmpty() ? Integer.valueOf(request.getParameter("id")): 0);

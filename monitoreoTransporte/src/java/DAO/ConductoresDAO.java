@@ -11,10 +11,11 @@ package DAO;
  */
 public interface ConductoresDAO {
     
-    public boolean agregarConductor(Object objeto) throws Exception;
-    public boolean editarConductor(Object objeto) throws Exception;
-    public boolean eliminarConductor(int indice) throws Exception;
+    public boolean agregar(Object objeto) throws Exception;
+    public boolean modificar(Object objeto) throws Exception;
+    public boolean eliminar(int indice) throws Exception;
     
-    // Falta revisión de métodos de cada interface, acorde requerimientos
+    public Object buscarPorId(int indice) throws Exception;
+    public Object buscarTodos() throws Exception;
     
 }

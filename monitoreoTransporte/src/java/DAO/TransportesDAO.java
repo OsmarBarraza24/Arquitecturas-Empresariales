@@ -11,10 +11,11 @@ package DAO;
  */
 public interface TransportesDAO {
     
-    public boolean agregarTransporte(Object objeto) throws Exception;
-    public boolean editarTransporte(Object objeto) throws Exception;
-    public boolean eliminarTransporte(int indice) throws Exception;
+    public boolean agregar(Object objeto) throws Exception;
+    public boolean modificar(Object objeto) throws Exception;
+    public boolean eliminar(int indice) throws Exception;
     
-    // Falta revisión de métodos de cada interface, acorde requerimientos
+    public Object buscarPorId(int indice) throws Exception;
+    public Object buscarTodos() throws Exception;
     
 }
