@@ -1,0 +1,7 @@
+SELECT `usuarios`.`id`,
+    `usuarios`.`nombreCompleto`,
+    `usuarios`.`cuentaCorreo`,
+    `usuarios`.`contrasena`,
+    `usuarios`.`idPerfilUsuario`,
+    `usuarios`.`idPuntoCaptura`
+FROM `monitoreo`.`usuarios`;
