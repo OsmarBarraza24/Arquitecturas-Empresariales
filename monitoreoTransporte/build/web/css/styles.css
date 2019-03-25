@@ -1,0 +1,57 @@
+.linkCard{
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Jaja Asi es banda todo esto es el puro navbar :v*/
+div.mainWrapper{
+    width: 100%;
+    display: block;
+    min-height: 18vh;
+}
+
+div.mainWrapper ul{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    position:fixed;
+    background: #f4f4f4;
+    list-style: none;
+    justify-content: flex-end;
+}
+div.mainWrapper ul li{
+    width: 80px;
+    cursor:pointer;
+    padding: 3px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+div.mainWrapper ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-family: Roboto,sans-serif;
+    font-size: 0.9em;
+}
+
+div.mainWrapper ul li#logo{
+    color:black;
+    position:absolute;
+    left: 20px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 3px;
+}
+
+div.mainWrapper ul li:hover{
+    background: rgba(255,255,255,0.3);
+}
+
+div.mainWrapper ul li#logo:hover{
+    background: none;
