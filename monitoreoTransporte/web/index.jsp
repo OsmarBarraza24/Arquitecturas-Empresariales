@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : index
     Created on : Mar 7, 2019, 10:37:43 PM
     Author     : eduardolara
@@ -13,6 +13,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <a href="views/vistaMenu.jsp">Menu</a>
+
+
     </body>
 </html>
