@@ -11,11 +11,11 @@ package entity;
  */
 public class Conductores {
   
+    //Tratando de subir
     private int id = 0;
     private String nombreCompleto = new String();
     private String descripcion = new String();
     private String ife = new String();
-    private String curp = new String();
     private String rfc = new String();
     private String licencia = new String();
     private String vigenciaLicencia = new String();
@@ -51,14 +51,6 @@ public class Conductores {
 
     public void setIfe(String ife) {
         this.ife = ife;
-    }
-
-    public String getCurp() {
-        return curp;
-    }
-
-    public void setCurp(String curp) {
-        this.curp = curp;
     }
 
     public String getRfc() {

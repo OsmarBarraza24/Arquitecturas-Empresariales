@@ -9,7 +9,7 @@ package DAO;
  *
  * @author dell
  */
-public interface EquipoGPSDAO {
+public interface PerfilUsuarioDAO {
     
     public boolean agregar(Object objeto) throws Exception;
     public boolean modificar(Object objeto) throws Exception;
@@ -17,5 +17,4 @@ public interface EquipoGPSDAO {
     
     public Object buscarPorId(int indice) throws Exception;
     public Object buscarTodos() throws Exception;
-    
 }
